@@ -1,0 +1,108 @@
+
+
+body {
+    background-image: url('../assets/marble2.jpg') ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid.banner_box {
+    height: 75vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.bg-image {
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+.bg-image img {
+    height: 100%;
+    width: 100%;
+}
+.row {
+    min-height: 170px;
+}
+#essays {
+    margin-top: 20px;
+}
+button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: rgb(255,138,45);
+    background: linear-gradient(90deg, rgba(255,138,45,1) 0%, rgba(255,208,8,1) 100%);
+    border: None;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover{
+    box-shadow: 4px 2px 10px 2px #474747;
+}
+button a {
+    padding: 10px;
+    color: White;
+    text-decoration: none;
+    font-size: 22px;
+}
+button a:hover {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 25px;
+    transition-property:all;
+    transition-duration:1s;
+    transition-timimg-function:linear;
+    transition-delay:0s;
+
+}
+*:hover {
+transition-property:all;
+    transition-duration:1s;
+    transition-timimg-function:linear;
+    transition-delay:0s;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* MEDIA QUERIES */ 
+
+ 
+/* 2532x1170 pixels at 460ppi */ 
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { }
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    .bg-image {
+        height: 20vh;
+    }
+}
+    
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {...}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {...}
+
+
